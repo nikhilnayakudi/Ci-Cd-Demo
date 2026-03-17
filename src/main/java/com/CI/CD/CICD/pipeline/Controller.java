@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("u")
     public String gethello(){
-        return "hello Nikhil,Iam Rohit from mumbai Indians vs Chennai super kings both are strong teams you think";
+        return "hello Nikhil,Iam Rohit, from mumbai Indians and Dhoni from Chennai super kings both are strong teams you think";
     }
 }
