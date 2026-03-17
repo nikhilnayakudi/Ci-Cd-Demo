@@ -11,6 +11,6 @@ public class Controller {
     }
     @GetMapping
     public String get(){
-        return "Yes,The CI/CD Pipeline is succesfully working";
+        return "Yes,The CI/CD Pipeline is succesfully working(We did it)";
     }
 }
