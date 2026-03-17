@@ -9,4 +9,8 @@ public class Controller {
     public String gethello(){
         return "hello Nikhil,Iam Rohit, from mumbai Indians and Dhoni from Chennai super kings both are strong teams you think";
     }
+    @GetMapping
+    public String get(){
+        return "Yes,The CI/CD Pipeline is succesfully working";
+    }
 }
